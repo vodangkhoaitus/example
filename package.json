@@ -2,18 +2,21 @@
     "name": "example",
     "version": "1.0.0",
     "description": "node app ",
-    "main": "app.js",
+    "main": "database.js",
     "scripts": {
-    "start": "node app.js"
+        "start": "node database.js"
     },
     "repository": {
-    "type": "git",
-    "url": ""
+        "type": "git",
+        "url": ""
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-    "url": ""
+        "url": ""
     },
-    "homepage": ""
+    "homepage": "",
+    "dependencies": {
+        "mongodb": "^3.1.10"
     }
+}
